@@ -20,17 +20,15 @@ class Form extends Component {
     }
 
     handleSubmit(event) {
-      var id = this.state.id;
-      var sku = this.state.sku;
-      var model = this.state.model;
-      var size = this.state.size;
-      var manufactureDate = this.state.manufactureDate;
-      alert("Product Info\nID: " + id +
-        "\nSKU: " + sku +
-        "\nModel: " + model +
-        "\nSize: " + size + 
-        "\nManufacture Date: " + manufactureDate);
-      alert("Concatenated:\n" + id + sku + model + size + manufactureDate);
+      alert(
+        "Product Info\nID: " + this.state.id +
+        "\nSKU: " + this.setState.sku +
+        "\nModel: " + this.state.model +
+        "\nSize: " + this.state.size + 
+        "\nManufacture Date: " + this.state.manufactureDate
+      );
+
+      alert("Stringify\n" + JSON.stringify(this.state));
       event.preventDefault();
     }
 

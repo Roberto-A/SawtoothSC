@@ -6,6 +6,8 @@
 
 legend {
         font-size: larger;
+        float: left;
+        margin: 10px;
 }
 
 p {
