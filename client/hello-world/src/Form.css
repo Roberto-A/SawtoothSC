@@ -1,0 +1,22 @@
+form {
+        display: table;
+        padding: 50px 0 50px 0;
+}
+
+legend {
+        font-size: larger;
+}
+
+p {
+        display: table-row;
+        white-space: nowrap;
+}
+
+label {
+        display: table-cell;
+        text-align: right;
+}
+
+input {
+        display: table-cell;
+}
