@@ -13,9 +13,6 @@ class App extends Component {
           <h1 className="App-title">Company</h1>
         </header>
         <div className="container">
-          <p className="App-intro">
-            Enter information about an item below.
-          </p>
           <Form />
         </div>
       </div>
